@@ -150,7 +150,7 @@ int main(int argc, char const *argv[])
             do
             {
                 //system("cls");
-                if(a!=10)printf("vertex 1:");
+                if(a!=10)printf("start vertex:");
                 scanf("%c",&a);
             } while (check_char(a));
             i1=-1;
