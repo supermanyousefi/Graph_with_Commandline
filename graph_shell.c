@@ -7,7 +7,7 @@
 #include "command_tree.h"
 int main(int argc, char const *argv[])
 {
-    system("clear");
+    system("cls");
     printf("\nsupermanyousefi@gmail.com\nNO WARRANTY! \nwe suggest using online compilers.\nthis program is full of bugs and can drop into INFINITE LOOPS.\nThis can over heat your system. \nwe DO NOT take responsiblity.\n");
 
     Command_node * C;
@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
     Graph * G=NULL;
     do
     {
-        //system("clear");
+        //system("cls");
         printf("\nnon-valid number(!)\nGraph is n*n\nEnter n:");
         scanf("%hd",&n);
         G=construct_Graph(n);
@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
     G->name=name;
     char command[25],a;
     short key=0,i1,i2,weight;
-    system("clear");
+    system("cls");
     printf("\nsupermanyousefi@gmail.com\nNO WARRANTY! \nwe suggest using online compilers.\nthis program is full of bugs and can drop into INFINITE LOOPS.\nThis can over heat your system. \nwe DO NOT take responsiblity.\n");
     printf("\ntype \"help\" to list commands\n");
     do
@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
         printf("\nCOMMAND>>");
         scanf("%s",command);
         key = command_output(C,command);
-        //system("clear");
+        //system("cls");
         switch (key)
         {
         case 1:
@@ -88,7 +88,7 @@ int main(int argc, char const *argv[])
 
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("vertex 1:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -104,7 +104,7 @@ int main(int argc, char const *argv[])
             }
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("vertex 2:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -129,7 +129,7 @@ int main(int argc, char const *argv[])
 
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("start vertex:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -149,7 +149,7 @@ int main(int argc, char const *argv[])
 
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("vertex 1:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -171,7 +171,7 @@ int main(int argc, char const *argv[])
         case 7:
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("vertex 1:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -187,7 +187,7 @@ int main(int argc, char const *argv[])
             }
             do
             {
-                //system("clear");
+                //system("cls");
                 if(a!=10)printf("vertex 2:");
                 scanf("%c",&a);
             } while (check_char(a));
@@ -204,7 +204,7 @@ int main(int argc, char const *argv[])
             remove_edge(G,i1,i2);
             break;
         case 8:
-            system("clear");
+            system("cls");
             break;
         case 9:
             reset_graph_matrix(G);
