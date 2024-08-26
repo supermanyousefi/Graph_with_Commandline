@@ -1,7 +1,8 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include<stdio.h>
-
+//this comment is added by CF to practice git
+//I love you superman
 struct command_tree
 {   char data; 
     short output; 
